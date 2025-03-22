@@ -1,0 +1,260 @@
+[debug] [2025-03-22T01:24:46.405Z] ----------------------------------------------------------------------
+[debug] [2025-03-22T01:24:46.408Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\petel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-22T01:24:46.409Z] CLI Version:   13.35.1
+[debug] [2025-03-22T01:24:46.409Z] Platform:      win32
+[debug] [2025-03-22T01:24:46.409Z] Node Version:  v22.14.0
+[debug] [2025-03-22T01:24:46.409Z] Time:          Sat Mar 22 2025 01:24:46 GMT+0000 (Greenwich Mean Time)
+[debug] [2025-03-22T01:24:46.409Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-22T01:24:46.414Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-22T01:24:46.414Z] > authorizing via signed-in user (petelawton76@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\AI\Projects\DCS
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-22T01:25:49.436Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:25:49.436Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:25:49.437Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-03-22T01:25:49.912Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-03-22T01:25:49.912Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project dynamic-content-studio (Dynamic Content Studio) 
+[info] 
+=== Firestore Setup
+[debug] [2025-03-22T01:25:51.577Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:25:51.577Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:25:51.577Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/firestore.googleapis.com [none]
+[debug] [2025-03-22T01:25:51.577Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/firestore.googleapis.com x-goog-quota-user=projects/dynamic-content-studio
+[debug] [2025-03-22T01:25:52.388Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/firestore.googleapis.com 200
+[debug] [2025-03-22T01:25:52.388Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/firestore.googleapis.com [omitted]
+[debug] [2025-03-22T01:25:52.389Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:25:52.389Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:25:52.389Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default) [none]
+[debug] [2025-03-22T01:25:52.661Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default) 200
+[debug] [2025-03-22T01:25:52.661Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default) {"name":"projects/dynamic-content-studio/databases/(default)","uid":"487d35db-6484-4b6c-bf13-0ef3ba20f05b","createTime":"2025-03-22T01:24:00.565143Z","updateTime":"2025-03-22T01:24:00.565143Z","locationId":"europe-west2","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-03-22T01:24:00.565143Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"g","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"etag":"IK3S7YPEnIwDMJeXrc7DnIwD"}
+[debug] [2025-03-22T01:25:52.661Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-03-22T01:25:52.661Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-03-22T01:25:52.662Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-22T01:25:52.662Z] > authorizing via signed-in user (petelawton76@gmail.com)
+[debug] [2025-03-22T01:25:52.662Z] [iam] checking project dynamic-content-studio for permissions ["firebase.projects.get"]
+[debug] [2025-03-22T01:25:52.663Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:25:52.663Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:25:52.663Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions [none]
+[debug] [2025-03-22T01:25:52.663Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions x-goog-quota-user=projects/dynamic-content-studio
+[debug] [2025-03-22T01:25:52.663Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-22T01:25:53.515Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions 200
+[debug] [2025-03-22T01:25:53.515Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-03-22T01:26:22.826Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:22.827Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:22.827Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/dynamic-content-studio/releases pageSize=10&pageToken=
+[debug] [2025-03-22T01:26:23.769Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/dynamic-content-studio/releases 200
+[debug] [2025-03-22T01:26:23.770Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/dynamic-content-studio/releases {"releases":[{"name":"projects/dynamic-content-studio/releases/cloud.firestore","rulesetName":"projects/dynamic-content-studio/rulesets/07fa38ac-326b-4496-8e87-1917989b1c8a","createTime":"2025-03-22T01:24:06.855276Z","updateTime":"2025-03-22T01:24:06.855276Z"}]}
+[debug] [2025-03-22T01:26:23.770Z] Found ruleset: projects/dynamic-content-studio/rulesets/07fa38ac-326b-4496-8e87-1917989b1c8a
+[debug] [2025-03-22T01:26:23.770Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:23.770Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:23.770Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/dynamic-content-studio/rulesets/07fa38ac-326b-4496-8e87-1917989b1c8a [none]
+[debug] [2025-03-22T01:26:24.409Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/dynamic-content-studio/rulesets/07fa38ac-326b-4496-8e87-1917989b1c8a 200
+[debug] [2025-03-22T01:26:24.409Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/dynamic-content-studio/rulesets/07fa38ac-326b-4496-8e87-1917989b1c8a [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-03-22T01:26:28.459Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:28.459Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:28.459Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:28.459Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:28.460Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2025-03-22T01:26:28.462Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2025-03-22T01:26:28.589Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2025-03-22T01:26:28.590Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default)/collectionGroups/-/indexes {}
+[debug] [2025-03-22T01:26:28.901Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2025-03-22T01:26:28.902Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/dynamic-content-studio/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/dynamic-content-studio/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[info] 
+=== Functions Setup
+[debug] [2025-03-22T01:26:28.909Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-22T01:26:28.909Z] > authorizing via signed-in user (petelawton76@gmail.com)
+[debug] [2025-03-22T01:26:28.909Z] [iam] checking project dynamic-content-studio for permissions ["firebase.projects.get"]
+[debug] [2025-03-22T01:26:28.909Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:28.909Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:28.910Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions [none]
+[debug] [2025-03-22T01:26:28.910Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions x-goog-quota-user=projects/dynamic-content-studio
+[debug] [2025-03-22T01:26:28.910Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-22T01:26:29.535Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions 200
+[debug] [2025-03-22T01:26:29.535Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/dynamic-content-studio:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-22T01:26:29.535Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:29.535Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:29.535Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:29.535Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:29.536Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-03-22T01:26:29.536Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/dynamic-content-studio
+[debug] [2025-03-22T01:26:29.537Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-03-22T01:26:29.537Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/dynamic-content-studio
+[debug] [2025-03-22T01:26:30.323Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/runtimeconfig.googleapis.com 200
+[debug] [2025-03-22T01:26:30.323Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-03-22T01:26:30.325Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com 200
+[debug] [2025-03-22T01:26:30.325Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-03-22T01:26:30.325Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:30.325Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:30.325Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2025-03-22T01:26:30.325Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/dynamic-content-studio
+[debug] [2025-03-22T01:26:30.956Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2025-03-22T01:26:30.956Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2025-03-22T01:26:40.969Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:40.969Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:26:40.969Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-03-22T01:26:40.970Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/dynamic-content-studio
+[debug] [2025-03-22T01:26:41.749Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com 200
+[debug] [2025-03-22T01:26:41.749Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/dynamic-content-studio/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.js 
+[info] +  Wrote functions/tsconfig.json 
+[info] +  Wrote functions/tsconfig.dev.json 
+[info] +  Wrote functions/src/index.ts 
+[info] +  Wrote functions/.gitignore 
+[info] 
+=== Hosting Setup
+[debug] [2025-03-22T01:28:28.982Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:28:28.983Z] Checked if tokens are valid: true, expires at: 1742609880242
+[debug] [2025-03-22T01:28:28.983Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/dynamic-content-studio [none]
+[debug] [2025-03-22T01:28:29.242Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/dynamic-content-studio 200
+[debug] [2025-03-22T01:28:29.242Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/dynamic-content-studio {"projectId":"dynamic-content-studio","projectNumber":"222244050383","displayName":"Dynamic Content Studio","name":"projects/dynamic-content-studio","resources":{"hostingSite":"dynamic-content-studio"},"state":"ACTIVE","etag":"1_947a7263-7b28-482a-b328-fe30f76dcdaa"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-03-22T01:31:22.770Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-03-22T01:31:22.842Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-03-22T01:31:22.842Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.5.0","browserURL":"https://www.gstatic.com/firebasejs/11.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.5.0/firebase.tgz"},"live":{"version":"11.5","browserURL":"https://www.gstatic.com/firebasejs/live/11.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.5.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.5.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.5.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.5.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.5.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.5.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.5.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.5.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.5.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\AI\Projects\DCS is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=683833094&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-03-22T01:31:31.596Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-03-22T01:31:31.596Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-03-22T01:31:31.851Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-03-22T01:31:31.852Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-03-22T01:31:31.854Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-03-22T01:31:32.082Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-03-22T01:31:32.083Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"panrill","id":1511839,"node_id":"MDQ6VXNlcjE1MTE4Mzk=","avatar_url":"https://avatars.githubusercontent.com/u/1511839?v=4","gravatar_id":"","url":"https://api.github.com/users/panrill","html_url":"https://github.com/panrill","followers_url":"https://api.github.com/users/panrill/followers","following_url":"https://api.github.com/users/panrill/following{/other_user}","gists_url":"https://api.github.com/users/panrill/gists{/gist_id}","starred_url":"https://api.github.com/users/panrill/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/panrill/subscriptions","organizations_url":"https://api.github.com/users/panrill/orgs","repos_url":"https://api.github.com/users/panrill/repos","events_url":"https://api.github.com/users/panrill/events{/privacy}","received_events_url":"https://api.github.com/users/panrill/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":1,"public_gists":0,"followers":0,"following":0,"created_at":"2012-03-07T14:39:16Z","updated_at":"2025-02-25T02:09:25Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":0,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as panrill 
+[info] 
+[debug] [2025-03-22T01:33:52.219Z] >>> [apiv2][query] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key type=owner
+[debug] [2025-03-22T01:33:52.406Z] <<< [apiv2][status] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key 404
+[debug] [2025-03-22T01:33:52.406Z] <<< [apiv2][body] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-22T01:37:33.754Z] >>> [apiv2][query] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key type=owner
+[debug] [2025-03-22T01:37:33.950Z] <<< [apiv2][status] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key 404
+[debug] [2025-03-22T01:37:33.950Z] <<< [apiv2][body] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-22T01:40:59.852Z] >>> [apiv2][query] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key type=owner
+[debug] [2025-03-22T01:41:00.060Z] <<< [apiv2][status] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key 404
+[debug] [2025-03-22T01:41:00.060Z] <<< [apiv2][body] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-22T01:41:02.135Z] >>> [apiv2][query] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key type=owner
+[debug] [2025-03-22T01:41:02.275Z] <<< [apiv2][status] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key 404
+[debug] [2025-03-22T01:41:02.276Z] <<< [apiv2][body] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-22T01:41:14.058Z] >>> [apiv2][query] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key type=owner
+[debug] [2025-03-22T01:41:14.242Z] <<< [apiv2][status] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key 404
+[debug] [2025-03-22T01:41:14.242Z] <<< [apiv2][body] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-22T01:46:59.028Z] >>> [apiv2][query] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key type=owner
+[debug] [2025-03-22T01:46:59.208Z] <<< [apiv2][status] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key 404
+[debug] [2025-03-22T01:46:59.208Z] <<< [apiv2][body] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-22T01:47:01.499Z] >>> [apiv2][query] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key type=owner
+[debug] [2025-03-22T01:47:01.640Z] <<< [apiv2][status] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key 404
+[debug] [2025-03-22T01:47:01.640Z] <<< [apiv2][body] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-22T01:50:08.939Z] >>> [apiv2][query] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key type=owner
+[debug] [2025-03-22T01:50:09.120Z] <<< [apiv2][status] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key 404
+[debug] [2025-03-22T01:50:09.120Z] <<< [apiv2][body] GET https://api.github.com/repos/panrill:DCS/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
